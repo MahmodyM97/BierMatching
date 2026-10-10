@@ -1,0 +1,273 @@
+{
+  "_hinweis": "Jede Antwort setzt Zielwerte (0-10) für einzelne Attribute. Das Quiz-Profil ist pro Attribut der Durchschnitt aller gesetzten Werte, Standard 4.",
+  "fragen": [
+    {
+      "id": 1,
+      "frage": "Welche Art von Bier schmeckt dir am besten?",
+      "antworten": [
+        {
+          "text": "Helles oder Pils",
+          "werte": {
+            "bitter": 5,
+            "malzig": 3,
+            "fruchtig": 1,
+            "koerper": 3
+          }
+        },
+        {
+          "text": "Weizen",
+          "werte": {
+            "bitter": 2,
+            "fruchtig": 7,
+            "suess": 4,
+            "koerper": 5
+          }
+        },
+        {
+          "text": "Märzen oder Dunkles",
+          "werte": {
+            "bitter": 3,
+            "malzig": 7,
+            "suess": 4,
+            "koerper": 6
+          }
+        },
+        {
+          "text": "IPA oder Craft",
+          "werte": {
+            "bitter": 8,
+            "fruchtig": 7,
+            "koerper": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "frage": "Wie stehst du zu Bitterkeit?",
+      "antworten": [
+        {
+          "text": "Möglichst wenig",
+          "werte": {
+            "bitter": 1
+          }
+        },
+        {
+          "text": "Ein bisschen darf sein",
+          "werte": {
+            "bitter": 4
+          }
+        },
+        {
+          "text": "Gern deutlich",
+          "werte": {
+            "bitter": 6
+          }
+        },
+        {
+          "text": "Je herber, desto besser",
+          "werte": {
+            "bitter": 9
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "frage": "Wie trinkst du deinen Kaffee?",
+      "antworten": [
+        {
+          "text": "Mit viel Milch und Zucker",
+          "werte": {
+            "suess": 7,
+            "bitter": 2
+          }
+        },
+        {
+          "text": "Cappuccino",
+          "werte": {
+            "suess": 4,
+            "koerper": 5
+          }
+        },
+        {
+          "text": "Schwarz, Espresso",
+          "werte": {
+            "bitter": 7,
+            "koerper": 7,
+            "malzig": 6
+          }
+        },
+        {
+          "text": "Gar nicht, lieber Saft oder Tee",
+          "werte": {
+            "fruchtig": 6,
+            "koerper": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "frage": "Welche Schokolade nimmst du?",
+      "antworten": [
+        {
+          "text": "Milchschokolade",
+          "werte": {
+            "suess": 7,
+            "malzig": 5
+          }
+        },
+        {
+          "text": "Zartbitter 70 %",
+          "werte": {
+            "bitter": 6,
+            "malzig": 7,
+            "koerper": 6
+          }
+        },
+        {
+          "text": "Weiße Schokolade oder mit Fruchtfüllung",
+          "werte": {
+            "suess": 8,
+            "fruchtig": 5
+          }
+        },
+        {
+          "text": "Lieber etwas Salziges",
+          "werte": {
+            "suess": 1,
+            "malzig": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "frage": "Wie magst du Saures?",
+      "antworten": [
+        {
+          "text": "Meide ich",
+          "werte": {
+            "sauer": 0
+          }
+        },
+        {
+          "text": "Ein Spritzer Zitrone passt",
+          "werte": {
+            "sauer": 2
+          }
+        },
+        {
+          "text": "Essiggurkerl und Sauerkraut gern",
+          "werte": {
+            "sauer": 5
+          }
+        },
+        {
+          "text": "Je saurer, desto besser",
+          "werte": {
+            "sauer": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "frage": "Welches Obst greifst du zuerst?",
+      "antworten": [
+        {
+          "text": "Banane",
+          "werte": {
+            "fruchtig": 6,
+            "suess": 5
+          }
+        },
+        {
+          "text": "Zitrusfrüchte",
+          "werte": {
+            "fruchtig": 7,
+            "sauer": 3
+          }
+        },
+        {
+          "text": "Beeren",
+          "werte": {
+            "fruchtig": 8,
+            "sauer": 5
+          }
+        },
+        {
+          "text": "Obst ist mir egal",
+          "werte": {
+            "fruchtig": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "frage": "Welches Brot magst du am liebsten?",
+      "antworten": [
+        {
+          "text": "Semmel oder Weißbrot",
+          "werte": {
+            "malzig": 3,
+            "koerper": 3
+          }
+        },
+        {
+          "text": "Vollkornbrot",
+          "werte": {
+            "malzig": 6,
+            "koerper": 5
+          }
+        },
+        {
+          "text": "Dunkles Schwarzbrot",
+          "werte": {
+            "malzig": 8,
+            "koerper": 7
+          }
+        },
+        {
+          "text": "Süßer Striezel oder Brioche",
+          "werte": {
+            "malzig": 5,
+            "suess": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "frage": "Wie soll sich ein Bier im Mund anfühlen?",
+      "antworten": [
+        {
+          "text": "Leicht und spritzig",
+          "werte": {
+            "koerper": 2
+          }
+        },
+        {
+          "text": "Ausgewogen",
+          "werte": {
+            "koerper": 4
+          }
+        },
+        {
+          "text": "Vollmundig",
+          "werte": {
+            "koerper": 7
+          }
+        },
+        {
+          "text": "Schwer und samtig",
+          "werte": {
+            "koerper": 9
+          }
+        }
+      ]
+    }
+  ]
+}

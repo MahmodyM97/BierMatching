@@ -1,0 +1,8 @@
+{
+  "_hinweis": "Read-only Startzustand für das Gast-Profil. Reihenfolge = Rang (1 = höchstes Gewicht). Änderungen speichert die App im localStorage.",
+  "favoriten": [
+    1,
+    4,
+    23
+  ]
+}
