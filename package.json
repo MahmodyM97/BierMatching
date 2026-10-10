@@ -1,0 +1,11 @@
+{
+  "name": "bierkompass",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "FH-Semesterprojekt Gruppe 4: Bierkatalog mit Empfehlungen",
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate_biere.mjs"
+  }
+}
