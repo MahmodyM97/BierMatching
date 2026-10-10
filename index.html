@@ -24,3 +24,84 @@
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta name="theme-color" content="#241A14">
 </head>
+<body>
+<!--INHALT-->
+<a class="skip" href="#app">Zum Inhalt springen</a>
+
+<header class="nav">
+  <div class="nav-innen">
+    <a class="logo" href="#/" aria-label="Bierkompass Startseite">
+      <img class="logo-mark" src="assets/elch-farbe.svg" width="39" height="44" alt="">
+      <span>Bierkompass</span>
+    </a>
+
+    <form class="suche" id="suchform" role="search">
+      <label for="suche" class="sr-only">Biere suchen</label>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="suche" type="search" placeholder="Bier, Brauerei, Sorte oder Geschmack" autocomplete="off">
+    </form>
+
+    <nav class="nav-links" aria-label="Hauptnavigation">
+      <div class="menue-wrap">
+        <button id="biere-btn" class="nav-link" aria-expanded="false" aria-controls="biere-menue">Biere <span aria-hidden="true">▾</span></button>
+        <ul id="biere-menue" class="menue" hidden>
+          <li><a href="#/biere" data-nav>Alle Biere</a></li>
+          <li><a href="#/profil" data-nav>Favoriten</a></li>
+          <li><a href="#/quiz" data-nav>Geschmacks-Quiz</a></li>
+          <li><a href="#/vergleich" data-nav>Biere vergleichen</a></li>
+        </ul>
+      </div>
+      <a class="nav-link" href="#/weltkarte" data-nav>Weltkarte</a>
+      <div class="menue-wrap">
+        <button id="burger-btn" class="burger" aria-expanded="false" aria-controls="burger-menue" aria-label="Konto-Menü">
+          <span></span><span></span><span></span>
+        </button>
+        <div id="burger-menue" class="menue rechts" hidden>
+          <p class="menue-kopf">Profil: <b id="konto-name">Gast</b></p>
+          <a href="#/login" id="login-link">Anmelden / Registrieren</a>
+          <a href="#/profil" data-nav>Mein Profil</a>
+          <a href="#/biere" class="nur-mobil">Alle Biere</a>
+          <a href="#/quiz" class="nur-mobil">Geschmacks-Quiz</a>
+          <a href="#/vergleich" class="nur-mobil">Biere vergleichen</a>
+          <a href="#/weltkarte" class="nur-mobil">Weltkarte</a>
+          <button id="abmelden-btn" class="menue-btn" hidden>Abmelden</button>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="app" tabindex="-1"><p class="laden">Lade Biere …</p></main>
+
+<footer class="fuss">
+  <p><b>Bierkompass</b> · FH-Semesterprojekt, Gruppe 4</p>
+  <p>Weltkarte: Natural Earth (Public Domain). Biere und Brauerei-Standorte: Recherchiert.</p>
+  <p>Genieße verantwortungsvoll. Ab 16 Jahren.</p>
+  <p class="fuss-links"><a href="#/impressum">Impressum</a> · <a href="#/datenschutz">Datenschutz</a></p>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+<div id="altersdialog" class="dialog-hintergrund" hidden>
+  <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="alter-h">
+    <img class="dialog-logo" src="assets/elch-farbe.svg" width="85" height="96" alt="Bierkompass">
+    <p class="eyebrow">Altersprüfung</p>
+    <h2 id="alter-h">Wann bist du geboren?</h2>
+    <form id="alter-form" novalidate>
+      <fieldset class="datum-felder">
+        <legend class="sr-only">Geburtsdatum</legend>
+        <label>Tag<input id="geb-tag" inputmode="numeric" maxlength="2" placeholder="TT" autocomplete="bday-day"></label>
+        <label>Monat<input id="geb-monat" inputmode="numeric" maxlength="2" placeholder="MM" autocomplete="bday-month"></label>
+        <label>Jahr<input id="geb-jahr" inputmode="numeric" maxlength="4" placeholder="JJJJ" autocomplete="bday-year"></label>
+      </fieldset>
+      <p class="fehler" id="alter-fehler" role="alert"></p>
+      <button class="btn primaer">Bestätigen</button>
+    </form>
+    <p class="meta" id="alter-hinweis">Diese Seite ist nur für Personen ab 16 Jahren.</p>
+  </div>
+</div>
+
+<script type="module" src="js/main.js"></script>
+<!--/INHALT-->
+</body>
+</html>
