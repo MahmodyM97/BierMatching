@@ -1,0 +1,393 @@
+{
+ "_hinweis": "Dummy-Daten für die Weltkarte im Hero. Standorte gerundet. brauerei_id in biere.json verweist auf diese IDs.",
+ "laender": {
+  "IE": "Irland",
+  "NL": "Niederlande",
+  "DK": "Dänemark",
+  "CZ": "Tschechien",
+  "US": "USA",
+  "JP": "Japan",
+  "CN": "China",
+  "MX": "Mexiko",
+  "BE": "Belgien",
+  "DE": "Deutschland",
+  "IT": "Italien",
+  "ES": "Spanien",
+  "PT": "Portugal",
+  "KE": "Kenia",
+  "ZA": "Südafrika",
+  "IN": "Indien",
+  "TH": "Thailand",
+  "BR": "Brasilien",
+  "AR": "Argentinien",
+  "AU": "Australien",
+  "NZ": "Neuseeland",
+  "CA": "Kanada",
+  "TR": "Türkei",
+  "PL": "Polen",
+  "GB": "Vereinigtes Königreich",
+  "AT": "Österreich"
+ },
+ "brauereien": [
+  {
+   "id": 1001,
+   "name": "Guinness St. James's Gate",
+   "stadt": "Dublin",
+   "land": "IE",
+   "land_name": "Irland",
+   "lat": 53.343,
+   "lng": -6.288
+  },
+  {
+   "id": 1002,
+   "name": "Heineken Brauerei",
+   "stadt": "Zoeterwoude",
+   "land": "NL",
+   "land_name": "Niederlande",
+   "lat": 52.12,
+   "lng": 4.52
+  },
+  {
+   "id": 1003,
+   "name": "Carlsberg",
+   "stadt": "Kopenhagen",
+   "land": "DK",
+   "land_name": "Dänemark",
+   "lat": 55.667,
+   "lng": 12.53
+  },
+  {
+   "id": 1004,
+   "name": "Plzeňský Prazdroj (Pilsner Urquell)",
+   "stadt": "Pilsen",
+   "land": "CZ",
+   "land_name": "Tschechien",
+   "lat": 49.747,
+   "lng": 13.386
+  },
+  {
+   "id": 1005,
+   "name": "Budějovický Budvar",
+   "stadt": "České Budějovice",
+   "land": "CZ",
+   "land_name": "Tschechien",
+   "lat": 48.99,
+   "lng": 14.47
+  },
+  {
+   "id": 1006,
+   "name": "Anheuser-Busch",
+   "stadt": "St. Louis",
+   "land": "US",
+   "land_name": "USA",
+   "lat": 38.598,
+   "lng": -90.213
+  },
+  {
+   "id": 1007,
+   "name": "Brooklyn Brewery",
+   "stadt": "New York",
+   "land": "US",
+   "land_name": "USA",
+   "lat": 40.722,
+   "lng": -73.957
+  },
+  {
+   "id": 1008,
+   "name": "Sierra Nevada Brewing",
+   "stadt": "Chico",
+   "land": "US",
+   "land_name": "USA",
+   "lat": 39.725,
+   "lng": -121.81
+  },
+  {
+   "id": 1009,
+   "name": "Asahi",
+   "stadt": "Tokio",
+   "land": "JP",
+   "land_name": "Japan",
+   "lat": 35.71,
+   "lng": 139.8
+  },
+  {
+   "id": 1010,
+   "name": "Sapporo",
+   "stadt": "Sapporo",
+   "land": "JP",
+   "land_name": "Japan",
+   "lat": 43.07,
+   "lng": 141.37
+  },
+  {
+   "id": 1011,
+   "name": "Tsingtao Brewery",
+   "stadt": "Qingdao",
+   "land": "CN",
+   "land_name": "China",
+   "lat": 36.07,
+   "lng": 120.38
+  },
+  {
+   "id": 1012,
+   "name": "Grupo Modelo",
+   "stadt": "Mexiko-Stadt",
+   "land": "MX",
+   "land_name": "Mexiko",
+   "lat": 19.45,
+   "lng": -99.2
+  },
+  {
+   "id": 1013,
+   "name": "AB InBev Brauerei Löwen",
+   "stadt": "Löwen",
+   "land": "BE",
+   "land_name": "Belgien",
+   "lat": 50.89,
+   "lng": 4.71
+  },
+  {
+   "id": 1014,
+   "name": "Duvel Moortgat",
+   "stadt": "Puurs",
+   "land": "BE",
+   "land_name": "Belgien",
+   "lat": 51.07,
+   "lng": 4.29
+  },
+  {
+   "id": 1015,
+   "name": "Brasserie de Chimay (Scourmont)",
+   "stadt": "Chimay",
+   "land": "BE",
+   "land_name": "Belgien",
+   "lat": 49.99,
+   "lng": 4.33
+  },
+  {
+   "id": 1016,
+   "name": "Bayerische Staatsbrauerei Weihenstephan",
+   "stadt": "Freising",
+   "land": "DE",
+   "land_name": "Deutschland",
+   "lat": 48.395,
+   "lng": 11.728
+  },
+  {
+   "id": 1017,
+   "name": "Paulaner",
+   "stadt": "München",
+   "land": "DE",
+   "land_name": "Deutschland",
+   "lat": 48.18,
+   "lng": 11.43
+  },
+  {
+   "id": 1018,
+   "name": "Augustiner-Bräu",
+   "stadt": "München",
+   "land": "DE",
+   "land_name": "Deutschland",
+   "lat": 48.141,
+   "lng": 11.548
+  },
+  {
+   "id": 1019,
+   "name": "Beck's",
+   "stadt": "Bremen",
+   "land": "DE",
+   "land_name": "Deutschland",
+   "lat": 53.075,
+   "lng": 8.79
+  },
+  {
+   "id": 1020,
+   "name": "Birra Peroni",
+   "stadt": "Rom",
+   "land": "IT",
+   "land_name": "Italien",
+   "lat": 41.85,
+   "lng": 12.5
+  },
+  {
+   "id": 1021,
+   "name": "Mahou",
+   "stadt": "Madrid",
+   "land": "ES",
+   "land_name": "Spanien",
+   "lat": 40.39,
+   "lng": -3.65
+  },
+  {
+   "id": 1022,
+   "name": "Damm",
+   "stadt": "Barcelona",
+   "land": "ES",
+   "land_name": "Spanien",
+   "lat": 41.39,
+   "lng": 2.17
+  },
+  {
+   "id": 1023,
+   "name": "Super Bock",
+   "stadt": "Leça do Balio",
+   "land": "PT",
+   "land_name": "Portugal",
+   "lat": 41.21,
+   "lng": -8.62
+  },
+  {
+   "id": 1024,
+   "name": "East African Breweries",
+   "stadt": "Nairobi",
+   "land": "KE",
+   "land_name": "Kenia",
+   "lat": -1.28,
+   "lng": 36.87
+  },
+  {
+   "id": 1025,
+   "name": "South African Breweries",
+   "stadt": "Johannesburg",
+   "land": "ZA",
+   "land_name": "Südafrika",
+   "lat": -26.2,
+   "lng": 28.05
+  },
+  {
+   "id": 1026,
+   "name": "United Breweries",
+   "stadt": "Bengaluru",
+   "land": "IN",
+   "land_name": "Indien",
+   "lat": 12.97,
+   "lng": 77.59
+  },
+  {
+   "id": 1027,
+   "name": "Boon Rawd Brewery",
+   "stadt": "Bangkok",
+   "land": "TH",
+   "land_name": "Thailand",
+   "lat": 13.78,
+   "lng": 100.52
+  },
+  {
+   "id": 1028,
+   "name": "Ambev (Brahma)",
+   "stadt": "Rio de Janeiro",
+   "land": "BR",
+   "land_name": "Brasilien",
+   "lat": -22.9,
+   "lng": -43.2
+  },
+  {
+   "id": 1029,
+   "name": "Cervecería Quilmes",
+   "stadt": "Quilmes",
+   "land": "AR",
+   "land_name": "Argentinien",
+   "lat": -34.72,
+   "lng": -58.26
+  },
+  {
+   "id": 1030,
+   "name": "Carlton & United Breweries",
+   "stadt": "Melbourne",
+   "land": "AU",
+   "land_name": "Australien",
+   "lat": -37.8,
+   "lng": 144.98
+  },
+  {
+   "id": 1031,
+   "name": "Lion (Steinlager)",
+   "stadt": "Auckland",
+   "land": "NZ",
+   "land_name": "Neuseeland",
+   "lat": -36.85,
+   "lng": 174.76
+  },
+  {
+   "id": 1032,
+   "name": "Molson",
+   "stadt": "Montreal",
+   "land": "CA",
+   "land_name": "Kanada",
+   "lat": 45.52,
+   "lng": -73.55
+  },
+  {
+   "id": 1033,
+   "name": "Anadolu Efes",
+   "stadt": "Istanbul",
+   "land": "TR",
+   "land_name": "Türkei",
+   "lat": 41.0,
+   "lng": 28.98
+  },
+  {
+   "id": 1034,
+   "name": "Browar Żywiec",
+   "stadt": "Żywiec",
+   "land": "PL",
+   "land_name": "Polen",
+   "lat": 49.68,
+   "lng": 19.19
+  },
+  {
+   "id": 1035,
+   "name": "Fuller's Griffin Brewery",
+   "stadt": "London",
+   "land": "GB",
+   "land_name": "Vereinigtes Königreich",
+   "lat": 51.487,
+   "lng": -0.25
+  },
+  {
+   "id": 1036,
+   "name": "Brouwerij Hoegaarden",
+   "stadt": "Hoegaarden",
+   "land": "BE",
+   "land_name": "Belgien",
+   "lat": 50.78,
+   "lng": 4.89
+  },
+  {
+   "id": 20,
+   "name": "Stieglbrauerei zu Salzburg",
+   "stadt": "Salzburg",
+   "land": "AT",
+   "land_name": "Österreich",
+   "lat": 47.7948,
+   "lng": 13.0196
+  },
+  {
+   "id": 5,
+   "name": "Ottakringer Brauerei",
+   "stadt": "Wien",
+   "land": "AT",
+   "land_name": "Österreich",
+   "lat": 48.2133,
+   "lng": 16.3229
+  },
+  {
+   "id": 24,
+   "name": "Brauerei Göss",
+   "stadt": "Leoben",
+   "land": "AT",
+   "land_name": "Österreich",
+   "lat": 47.3625,
+   "lng": 15.0947
+  },
+  {
+   "id": 21,
+   "name": "Trumer Privatbrauerei",
+   "stadt": "Obertrum",
+   "land": "AT",
+   "land_name": "Österreich",
+   "lat": 47.9371,
+   "lng": 13.0782
+  }
+ ]
+}
