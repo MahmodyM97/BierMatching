@@ -179,7 +179,7 @@ Eintrag in `data/biere.json`:
 | `popularity` | 0–100, für „Beliebtheit“ und den Kaltstart |
 | `profil` | sechs Werte 0–10. Am besten von zwei Personen unabhängig schätzen und mitteln. |
 | `quelle` | Link, woher Alkohol, IBU und EBC stammen |
-| `dummy` | `false` für recherchierte Biere. Bei `true` zeigt die Detailseite den Hinweis „Beispieldaten“. |
+| `dummy` | `false` für recherchierte Biere. Bei `true`  |
 | `form` | Flaschenform: `longneck`, `euro`, `weizen`, `bauchig` oder `dose` |
 | `etikett_farbe` | Farbe von Kronkorken und Etikettrand |
 
