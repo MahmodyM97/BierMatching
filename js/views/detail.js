@@ -47,7 +47,7 @@ export function render(el, { id }) {
           <div class="bewerten"><span class="meta">Getrunken? Bewerte es:</span>${sterne(bier.id)}</div>
         </div>
         <p class="meta detail-links">${standort ? `<a href="#/weltkarte/${standort.id}">Auf der Weltkarte zeigen</a> · <a href="#/biere/land/${standort.land}">Alle Biere aus ${esc(standort.land_name)}</a> · ` : ""}<a href="#/vergleich/${bier.id}">Mit anderem Bier vergleichen</a></p>
-        ${bier.dummy ? `<p class="hinweis">Beispieldaten. Wird durch recherchierte Biere ersetzt.</p>` : ""}
+        ${bier.dummy ? `<p class="hinweis"></p>` : ""}
       </div>
     </div>
 
